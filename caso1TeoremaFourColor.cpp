@@ -11,6 +11,13 @@
 
 using namespace std;
 
+/* 
+*  Se hizo un anidado de structs para proveer de propiedades
+*  extra a las partes del mapa (regiones) y así poder trabajar
+*  de forma más sencilla con los datos asociados a las regiones
+*  comparando y modificando su información.
+*/
+
 struct region
 {
     int color;
